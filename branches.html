@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> New Life Blood Center </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hide()" ></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="branches.html">BRANCH</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="show()"></i>
+            </nav>
+   
+        </section>
+        <!--Branches-->
+        <section class="branches">
+            <div class="text-box">
+                <h1>OUR BRANCHES</h1>
+                
+                <a href="" class="zero-btn">visit us to donate blood.</a>
+            </div>
+            <h1>Our Branches</h1>
+            <p>We currently have 7 branches across the states</p>
+            <div class="row">
+                <!--Image ratio is 2:3-->
+                <div class="bracol">
+                    <img src="hyderabad.jpg">
+                    <div class="layer">
+                        <h3>Darulshifa</h3>
+                    </div>
+                </div>
+                <div class="bracol">
+                    <img src="chandanagar.jpg">
+                    <div class="layer">
+                        <h3>Chanda Nagar</h3>
+                    </div>
+                </div>
+                <div class="bracol">
+                    <img src="Wanaparthy.jpg">
+                    <div class="layer">
+                        <h3>Wanaparthy</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bracol">
+                    <img src="kurnool.jpg">
+                    <div class="layer">
+                        <h3>Kurnool</h3>
+                    </div>
+                </div>
+                <div class="bracol">
+                    <img src="nellore.jpg">
+                    <div class="layer">
+                        <h3>Nellore</h3>
+                    </div>
+                </div>
+                <div class="bracol">
+                    <img src="vizag.jpg">
+                    <div class="layer">
+                        <h3>Vishakapatnam</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="br">
+                   
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="bracol">
+                    <img src="vizai.jpeg">
+                    <div class="layer">
+                        <h3>Vizianagaram</h3>
+                    </div>
+                </div>
+                <div class="br">
+                   
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="footer">
+            <h4>About us</h4>
+            <p>The needles that we use are least painful, safe and disposable. The bags we use are also of the highest grade and cannot be reused. We have an advanced component seperation with which 1 unit of blood is capable of saving 3 lives. </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p class="end">Made with <i class="fa fa-heart-o"> </i> by Nisar Ahmed</p>
+        </section>
+
+
+
+
+
+
+
+<!--JAVA SCRIPT TOGGLE FOR SMALLER SCREEN DEVICES-->
+    <script>
+        var navlinks= document.getElementById("navlinks")
+        function show()
+        {
+            navlinks.style.right="0px";
+        }
+        function hide()
+        {
+            navlinks.style.right="-200px";
+        }
+    </script>
+    
+    </body>
+
+</html>

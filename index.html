@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> New Life Blood Center </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hide()" ></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="branches.html">BRANCH</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="show()"></i>
+            </nav>
+    <div class="text-box">
+        <h1>NEW LIFE BLOOD CENTRE</h1>
+        <p>(A unit of Thalassemia Support Society)</p>
+        <a href="" class="zero-btn">visit us to donate blood.</a>
+    </div>
+        </section>
+        <!-- Importance of Blood Donation & Technical Details-->
+
+        <section class="imp">
+            <h1>Importance of blood donation.</h1>
+            <p>Unfortunately, there is a severe shortage for blood in our country. It is because either the eligible people are hesitant to donate blood or there isn't enough blood donation camps conducted in our society</p>
+            
+            <div class="row">
+                <div class="row-col">
+                    <h3>Is blood donation harmful?</h3>
+                    <p>Some people assume that donating blood, means losing something permanently from your body. This is a total misconception. The human body consists of about five to six litres of blood, out of which only 350~450ml is collected from each donor This is the excess reserve of blood collected from the human body only after suitable testing.</p>
+                </div>
+
+            
+                <div class="row-col">
+                    <h3>Benefits of donating blood.</h3>
+                    <p>Immediately after blood donation the bone marrow spontaneously starts to produce blood cells, even before you've been served the refreshment after the blood donation. After blood donation the cell production rate increases and will bring back the levels to normal in about 2 to 3 weeks.
+                        <br> Blood donation is helpful to both the donor and recipient, recent studies have shown that regular blood donors are far less prone to heart attacks.
+                    </p>
+                </div>
+
+                <div class="row-col">
+                    <h3>Technical Details.</h3>
+                    <p>The needles that we use are least painful, safe and disposable. The bags we use are also of the highest grade and cannot be reused. We have an advanced component seperation with which 1 unit of blood is capable of saving 3 lives.</p>
+                </div>
+            </div>
+
+        </section>
+        <!--cta-->
+        <section class="cta">
+            <h1>Conact or ask us any queries.</h1>
+            <a href="" class="zero-btn">CONTACT US</a>
+        </section>
+         <!--reach us-->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>The needles that we use are least painful, safe and disposable. The bags we use are also of the highest grade and cannot be reused. We have an advanced component seperation with which 1 unit of blood is capable of saving 3 lives. </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p class="end">Made with <i class="fa fa-heart-o"> </i> by Nisar Ahmed</p>
+        </section>
+
+
+
+
+
+
+
+<!--JAVA SCRIPT TOGGLE FOR SMALLER SCREEN DEVICES-->
+    <script>
+        var navlinks= document.getElementById("navlinks")
+        function show()
+        {
+            navlinks.style.right="0px";
+        }
+        function hide()
+        {
+            navlinks.style.right="-200px";
+        }
+    </script>
+    
+    </body>
+
+</html>
