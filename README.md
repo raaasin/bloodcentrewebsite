@@ -15,7 +15,6 @@ The website includes the following pages:
 - `index.html`: The homepage of the website.
 - `about.html`: Contains information about the importance of blood donation.
 - `branches.html`: Displays technical details about the blood center.
-- No separate HTML file is provided for the contact page.
 
 The website utilizes the Font Awesome icon library and Google Fonts for styling and visual enhancements.
 
